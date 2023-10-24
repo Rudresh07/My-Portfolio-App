@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0A182E</color>
+    <color name="heading">#CDD6F7</color>
+    <color name="normaltext">#6884A6</color>
+    <color name="box">#64ffda</color>
+
+</resources>

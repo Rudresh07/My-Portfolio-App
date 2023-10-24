@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Portfolio App</string>
+    <string name="intro">Hello, my name is</string>
+    <string name="name"> Rudresh Patel.</string>
+    <string name="profession">An Enthusiastic Android developer,</string>
+    <string name="about"> with a strong commitment to designing elegant, functional, and user-centric mobile applications.</string>
+    <string name="aboutme">Hello! My name is Rudresh Patel. I\'m a dedicated B.Tech Computer Science student who has immersed myself in the world of Android development. Eager to apply my skills in a
+professional setting, I\'m committed to learning new technologies and contributing effectively to innovative projects. With a strong foundation in
+programming and problem-solving, I\'m excited to collaborate within a dynamic team to create user-centric applications. My goal is not only personal
+growth but also to actively contribute to the organizations success by embracing challenges and keeping up with the fast-paced tech landscape.
+    \nApart from this, I like travelling as it give me exposure about different socities, culture, tradition </string>
+
+    <string name="bulleted_text1">&#8226; HOME</string>
+    <string name="bulleted_text2">&#8226; ABOUT</string>
+    <string name="bulleted_text3">&#8226; SKILLS</string>
+    <string name="bulleted_text4">&#8226; PROJECTS</string>
+    <string name="bulleted_text5">&#8226; EXPERIENCE</string>
+    <string name="bulleted_text6">&#8226; CONTACT</string>
+    <string name="bulleted_text7">&#8226; RESUME</string>
+
+    <string name="mathforfun">
+    <![CDATA[
+        <font color="#64ffda">1. Automated Arithmetic App:</font> <br/>
+        Built a Kotlin and XML app for auto-generating arithmetic problems, catering to students up to 5th grade.<br/><br/>
+
+        <font color="#64ffda">2. Diverse Question Range:</font><br/>
+        Utilized Kotlin\'s backend to create a variety of math questions, spanning different grades and concepts.<br/><br/>
+
+        <font color="#64ffda">3. Intuitive Interface: </font><br/>
+        Designed an XML-based interface, enabling educators to access auto-generated arithmetic questions effortlessly.
+    ]]>
+</string>
+    <string name="loginapp">1. Developed an Android application enabling user registration and login functionality.\n\n
+2. Designed an intuitive interface for new users to easily sign up and enter their personal details.\n\n
+3. Implemented a user-specific dashboard displaying the information provided during the signup process.</string>
+
+    <string name="studentportal">1. Created an advanced student information system tailored for educational institutions, streamlining the storage, organization, and oversight of vital
+student data.\n\n
+2. Orchestrated a comprehensive array of functionalities encompassing seamless data input, enrollment management.\n\n
+3. Engineered a versatile framework capable of accommodating a wide spectrum of student-centric information</string>
+    <string name="quote">Always cherish acts of kindness and stay connected with those who perform them. My inbox is always open, so feel free to reach out</string>
+
+</resources>

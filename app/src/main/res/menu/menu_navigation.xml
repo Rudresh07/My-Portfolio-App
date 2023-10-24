@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_item1"
+        android:title="@string/bulleted_text1"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_item2"
+        android:title="@string/bulleted_text2" />
+    <item
+        android:id="@+id/nav_item3"
+        android:title="@string/bulleted_text3"/>
+
+    <item
+        android:id="@+id/nav_item4"
+        android:title="@string/bulleted_text4" />
+    <item
+        android:id="@+id/nav_item5"
+        android:title="@string/bulleted_text5" />
+    <item
+        android:id="@+id/nav_item6"
+        android:title="@string/bulleted_text6"/>
+    <item
+        android:id="@+id/Resume"
+        android:title="@string/bulleted_text7"/>
+</menu>

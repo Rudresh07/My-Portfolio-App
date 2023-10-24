@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyPortfolioApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">@color/background</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:textColor">@color/box</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@drawable/navigation_design</item>
+    </style>
+
+
+    <style name="Theme.MyPortfolioApp" parent="Base.Theme.MyPortfolioApp" />
+</resources>
