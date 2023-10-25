@@ -1,5 +1,6 @@
 package com.example.myportfolioapp
 
+
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
@@ -10,6 +11,7 @@ import android.view.View
 import android.widget.PopupMenu
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.GravityCompat
 import com.example.myportfolioapp.databinding.ActivityMainBinding
@@ -24,6 +26,36 @@ class MainActivity : AppCompatActivity() {
         val view = binding?.root
         setContentView(view)
         val scrollView = binding?.mainview
+
+
+        //setting the result of class 10 inside the progressbar
+        binding?.Progressbar1?.apply {
+            progressMax = 100f
+            setProgressWithAnimation(75f,1500)
+            progressBarWidth = 5f
+            val progressColor = ContextCompat.getColor(context, R.color.box)
+
+            progressBarColor = progressColor
+            roundBorder = true
+
+        }
+
+        //setting the result of class 12 inside a progress bar
+
+        binding?.Progressbar2?.apply {
+            progressMax = 100f
+            setProgressWithAnimation(91f,1800)
+            progressBarWidth = 5f
+            val progressColor = ContextCompat.getColor(context, R.color.box)
+
+            progressBarColor = progressColor
+            roundBorder = true
+
+
+        }
+
+
+
 
         binding!!.menuBar.setOnClickListener {
                 view ->
