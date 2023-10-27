@@ -235,30 +235,45 @@
                         android:layout_marginTop="20dp">
 
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="CLASS 10"
-                            android:textSize="28sp"
-                            android:textStyle="bold"
-                            android:textColor="@color/heading"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CLASS 10"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/heading"/>
+                        </LinearLayout>
 
-                        <FrameLayout
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:layout_marginStart="50dp">
-                            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
                                 android:layout_width="150dp"
                                 android:layout_height="150dp"
-                                android:id="@+id/Progressbar1"/>
+                                android:layout_marginStart="50dp">
+                                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:id="@+id/Progressbar1"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:text="75%"
-                                android:textSize="44sp"
-                                android:gravity="center"/>
-                        </FrameLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="75%"
+                                    android:textSize="44sp"
+                                    android:gravity="center"/>
+                            </FrameLayout>
+                        </LinearLayout>
 
 
 
@@ -274,30 +289,45 @@
                         android:layout_marginTop="20dp">
 
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="CLASS 12"
-                            android:textSize="28sp"
-                            android:textStyle="bold"
-                            android:textColor="@color/heading"/>
-
-                        <FrameLayout
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:layout_marginStart="50dp">
-                            <com.mikhaellopez.circularprogressbar.CircularProgressBar
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:id="@+id/Progressbar2"/>
-
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
                             <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:text="91%"
-                                android:textSize="44sp"
-                                android:gravity="center"/>
-                        </FrameLayout>
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CLASS 12"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/heading"/>
+                        </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="1"
+                           android:gravity="center"
+                           android:orientation="horizontal">
+
+                           <FrameLayout
+                               android:layout_width="150dp"
+                               android:layout_height="150dp"
+                               android:layout_marginStart="50dp">
+                               <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                                   android:layout_width="150dp"
+                                   android:layout_height="150dp"
+                                   android:id="@+id/Progressbar2"/>
+
+                               <TextView
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:text="91%"
+                                   android:textSize="44sp"
+                                   android:gravity="center"/>
+                           </FrameLayout>
+                       </LinearLayout>
 
 
 

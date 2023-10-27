@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         //setting the result of class 10 inside the progressbar
         binding?.Progressbar1?.apply {
             progressMax = 100f
-            setProgressWithAnimation(75f,1500)
+            setProgressWithAnimation(75f,3000)
             progressBarWidth = 5f
             val progressColor = ContextCompat.getColor(context, R.color.box)
 
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         binding?.Progressbar2?.apply {
             progressMax = 100f
-            setProgressWithAnimation(91f,1800)
+            setProgressWithAnimation(91f,3000)
             progressBarWidth = 5f
             val progressColor = ContextCompat.getColor(context, R.color.box)
 
