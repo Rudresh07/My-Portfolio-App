@@ -260,6 +260,7 @@
                             <FrameLayout
                                 android:layout_width="150dp"
                                 android:layout_height="150dp"
+                                android:layout_marginEnd="30dp"
                                 android:layout_marginStart="50dp">
                                 <com.mikhaellopez.circularprogressbar.CircularProgressBar
                                     android:layout_width="150dp"
@@ -314,6 +315,7 @@
                            <FrameLayout
                                android:layout_width="150dp"
                                android:layout_height="150dp"
+                               android:layout_marginEnd="30dp"
                                android:layout_marginStart="50dp">
                                <com.mikhaellopez.circularprogressbar.CircularProgressBar
                                    android:layout_width="150dp"
