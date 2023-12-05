@@ -135,10 +135,10 @@ class MainActivity : AppCompatActivity() {
 
 
         // Use Intent.createChooser to let the user choose an email client
-        startActivity(Intent.createChooser(intent, "Send Email"))
+        val ChooseIntent = Intent.createChooser(intent, "Send Email")
 
         if (intent.resolveActivity(packageManager) != null) {
-            startActivity(intent)
+            startActivity(ChooseIntent)
         } else {
             // Handle the case where no app can handle the intent (optional).
             // You can display a message or perform another action here.

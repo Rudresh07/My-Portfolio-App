@@ -369,7 +369,7 @@
 
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -383,14 +383,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Android"
+                                android:text=" Android "
                                 android:textSize="18sp"
                                 android:textColor="@color/normaltext"/>
 
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -398,20 +398,20 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:src="@drawable/kotlin"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Kotlin"
+                                android:text=" Kotlin  "
                                 android:textSize="18sp"
                                 android:textColor="@color/normaltext"/>
 
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -419,13 +419,13 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:src="@drawable/xml"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="XML"
+                                android:text="   XML   "
                                 android:textSize="18sp"
                                 android:textColor="@color/normaltext"/>
 
@@ -442,7 +442,7 @@
 
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -450,20 +450,20 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:src="@drawable/firebase"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textSize="18sp"
-                                android:text="Firebase"
+                                android:text="Firebase "
                                 android:textColor="@color/normaltext"/>
 
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -471,20 +471,20 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:src="@drawable/github"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="85dp"
                                 android:layout_height="wrap_content"
-                                android:text="Github"
+                                android:text="     Github"
                                 android:textSize="18sp"
                                 android:textColor="@color/normaltext"/>
 
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -492,13 +492,13 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:src="@drawable/git"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Git"
+                                android:text="   Git   "
                                 android:textSize="18sp"
                                 android:textColor="@color/normaltext"/>
 
@@ -515,7 +515,7 @@
 
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -523,20 +523,21 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/html"/>
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/html" />
+
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="85dp"
                                 android:layout_height="wrap_content"
-                                android:text="HTML"
+                                android:text="     HTML"
                                 android:textSize="18sp"
                                 android:textColor="@color/normaltext"/>
 
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -544,20 +545,20 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:src="@drawable/css"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="85dp"
                                 android:layout_height="wrap_content"
-                                android:text="CSS"
+                                android:text="      CSS"
                                 android:textSize="18sp"
                                 android:textColor="@color/normaltext"/>
 
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -565,11 +566,11 @@
                             >
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:src="@drawable/js"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="85dp"
                                 android:layout_height="wrap_content"
                                 android:text="Javascript"
                                 android:textSize="18sp"
